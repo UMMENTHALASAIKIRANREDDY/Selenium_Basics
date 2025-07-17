@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="3" parallel="tests">
+  <test  name="Test_S">
+    <classes>
+      <class name="TestNG_task.Swiggy"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  <test  name="Test_F">
+    <classes>
+  
+      <class name="TestNG_task.FlipKart"/>
+    </classes>
+  </test> <!-- Test -->
+  <test  name="Test_Fb">
+    <classes>
+    
+      <class name="TestNG_task.FaceBook"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
