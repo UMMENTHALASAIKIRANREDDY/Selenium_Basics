@@ -3,7 +3,7 @@ package TestNG;
 import org.testng.annotations.Test;
 
 public class sample {
-//changing
+//changing to push to git
 		@Test
 		
 		public void test() {
